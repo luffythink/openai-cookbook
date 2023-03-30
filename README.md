@@ -69,13 +69,13 @@ Most code examples are written in Python, though the concepts can be applied in 
 Beyond the code examples here, you can learn about the [OpenAI API] from the following resources:
 除了这里的代码示例，你可以从以下资源中了解OpenAI API：
 
-- Try out the API in the [OpenAI Playground] 在OpenAI游乐场试实验API的使用效果
+- Try out the API in the [OpenAI Playground] 在OpenAI游乐场中尝试使用API
 - Read about the API in the [OpenAI Documentation] 在OpenAI文档了解 API的使用方法
 - Discuss the API in the [OpenAI Community社区 Forum论坛] 在社区论坛讨论API的使用经验
 - Look for help in the [OpenAI Help Center] 在OpenAI帮助中心寻求使用问题的帮助
 - See example prompts in the [OpenAI Examples] 在OpenAI案例库找到更多使用案例
-- Play with a free research preview of [ChatGPT] 使用免费的研究预览版 [ChatGPT] 进行游戏
-- Stay up to date with the [OpenAI Blog]
+- Play with a free research preview of [ChatGPT] 使用免费的研究预览版ChatGPT进行游戏
+- Stay up to date with the [OpenAI Blog] 随时关注OpenAI博客的最新动态
 
 ## Contributing
 
