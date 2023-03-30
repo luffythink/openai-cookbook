@@ -1,8 +1,9 @@
 # OpenAI Cookbook
 
-The OpenAI Cookbook shares example code for accomplishing common tasks with the [OpenAI API].
+The OpenAI Cookbook shares example code for accomplishing完成 common tasks with the [OpenAI API].
+OpenAI中文手册分享了使用 OpenAI API 完成常见任务的示例代码。
 
-To run these examples, you'll need an OpenAI account and associated API key ([create a free account][api signup]).
+To run these examples, you'll need an OpenAI account and associated相关的 API key ([create a free account][api signup]).
 
 Most code examples are written in Python, though the concepts can be applied in any language.
 
@@ -11,17 +12,19 @@ Most code examples are written in Python, though the concepts can be applied in 
 ## Recently added 🆕 ✨
 
 - [How to format inputs to ChatGPT models](examples/How_to_format_inputs_to_ChatGPT_models.ipynb) [Mar 1st, 2023]
-- [Using Vector Databases for Embeddings Search with Redis](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) [Feb 15th, 2023]
+- [Using Vector Databases for Embeddings Search with Redis](https://github.com/openai/openai-cookbook/tree/main/examples/vector_databases/redis) [Feb 15th, 2023]使用向量数据库在Redis中进行嵌入搜索
+
 - [Website Q&A with Embeddings](https://github.com/openai/openai-cookbook/tree/main/apps/web-crawl-q-and-a) [Feb 11th, 2023]
 - [File Q&A with Embeddings](https://github.com/openai/openai-cookbook/tree/main/apps/file-q-and-a) [Feb 11th, 2023]
-- [Visualize Embeddings in Weights & Biases](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb) [Feb 9th, 2023]
-- [Retrieval Enhanced Generative Question Answering with Pinecone](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb) [Feb 8th, 2023]
+- [Visualize Embeddings in Weights & Biases](https://github.com/openai/openai-cookbook/blob/main/examples/Visualizing_embeddings_in_W%26B.ipynb) [Feb 9th, 2023]在权重和偏差中可视化嵌入
+- [Retrieval检索 Enhanced Generative Question Answering with Pinecone](https://github.com/openai/openai-cookbook/blob/main/examples/vector_databases/pinecone/Gen_QA.ipynb) [Feb 8th, 2023] 用Pinecone检索增强生成式问答
 
 
-## Guides & examples
+## Guides & examples 
+## 指南 & 示例
 
-- API usage
-  - [How to handle rate limits](examples/How_to_handle_rate_limits.ipynb)
+- API usage用法
+  - [How to handle rate limits](examples/How_to_handle_rate_limits.ipynb)如何处理请求频率限制
     - [Example parallel processing script that avoids hitting rate limits](examples/api_request_parallel_processor.py)
   - [How to count tokens with tiktoken](examples/How_to_count_tokens_with_tiktoken.ipynb)
   - [How to stream completions](examples/How_to_stream_completions.ipynb)
