@@ -25,59 +25,62 @@ Most code examples are written in Python, though the concepts can be applied in 
 
 - API usage用法
   - [How to handle rate limits](examples/How_to_handle_rate_limits.ipynb)如何处理请求频率限制
-    - [Example parallel processing script that avoids hitting rate limits](examples/api_request_parallel_processor.py)
+    - [Example parallel processing script that avoids hitting rate limits](examples/api_request_parallel_processor.py)避免触及请求频率限制的并行处理脚本示例
   - [How to count tokens with tiktoken](examples/How_to_count_tokens_with_tiktoken.ipynb)
-  - [How to stream completions](examples/How_to_stream_completions.ipynb)
+  - [How to stream completions](examples/How_to_stream_completions.ipynb)如何串联补全
 - ChatGPT
   - [How to format inputs to ChatGPT models](examples/How_to_format_inputs_to_ChatGPT_models.ipynb)
 - GPT-3
   - [Guide: How to work with large language models](how_to_work_with_large_language_models.md)
-  - [Guide: Techniques to improve reliability](techniques_to_improve_reliability.md)
-  - [How to use a multi-step prompt to write unit tests](examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)
-  - [Text writing examples](text_writing_examples.md)
-  - [Text explanation examples](text_explanation_examples.md)
-  - [Text editing examples](text_editing_examples.md)
+  - [Guide: Techniques to improve reliability](techniques_to_improve_reliability.md)提高可靠性的技术
+  - [How to use a multi-step prompt to write unit tests](examples/Unit_test_writing_using_a_multi-step_prompt.ipynb)使用多步骤提示来编写单元测试
+  - [Text writing examples](text_writing_examples.md)文本写作实例
+  - [Text explanation examples](text_explanation_examples.md)文本解释实例
+  - [Text editing examples](text_editing_examples.md)文本编辑实例
   - [Code writing examples](code_writing_examples.md)
   - [Code explanation examples](code_explanation_examples.md)
   - [Code editing examples](code_editing_examples.md)
-- Embeddings
-  - [Text comparison examples](text_comparison_examples.md)
-  - [How to get embeddings](examples/Get_embeddings.ipynb)
-  - [Question answering using embeddings](examples/Question_answering_using_embeddings.ipynb)
-  - [Semantic search using embeddings](examples/Semantic_text_search_using_embeddings.ipynb)
-  - [Recommendations using embeddings](examples/Recommendation_using_embeddings.ipynb)
-  - [Clustering embeddings](examples/Clustering.ipynb)
-  - [Visualizing embeddings in 2D](examples/Visualizing_embeddings_in_2D.ipynb) or [3D](examples/Visualizing_embeddings_in_3D.ipynb)
-  - [Embedding long texts](examples/Embedding_long_inputs.ipynb)
-- Fine-tuning GPT-3
-  - [Guide: best practices for fine-tuning GPT-3 to classify text](https://docs.google.com/document/d/1rqj7dkuvl7Byd5KQPUJRxc19BJt8wo0yHNwK84KfU3Q/edit)
-  - [Fine-tuned classification](examples/Fine-tuned_classification.ipynb)
+- Embeddings词嵌入
+  - [Text comparison examples](text_comparison_examples.md)文本比较实例
+  - [How to get embeddings](examples/Get_embeddings.ipynb)如何获得词嵌入
+  - [Question answering using embeddings](examples/Question_answering_using_embeddings.ipynb)使用词嵌入回答问题
+  - [Semantic search using embeddings](examples/Semantic_text_search_using_embeddings.ipynb)使用词嵌入的语义搜索
+  - [Recommendations using embeddings](examples/Recommendation_using_embeddings.ipynb)使用词嵌入的建议
+  - [Clustering embeddings](examples/Clustering.ipynb)对词嵌入进行聚类
+  - [Visualizing embeddings in 2D](examples/Visualizing_embeddings_in_2D.ipynb) or [3D](examples/Visualizing_embeddings_in_3D.ipynb)在二维或3 维中可视化嵌入
+  - [Embedding long texts](examples/Embedding_long_inputs.ipynb)词嵌入长文本
+- Fine-tuning GPT-3 微调GPT-3 
+  - [Guide: best practices for fine-tuning GPT-3 to classify text](https://docs.google.com/document/d/1rqj7dkuvl7Byd5KQPUJRxc19BJt8wo0yHNwK84KfU3Q/edit)指南：微调 GPT-3 对文本进行分类的最佳做法
+  - [Fine-tuned classification](examples/Fine-tuned_classification.ipynb)微调分类
 - DALL-E
-  - [How to generate and edit images with DALL-E](examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)
-- Azure OpenAI (alternative API from Microsoft Azure)
+  - [How to generate and edit images with DALL-E](examples/dalle/Image_generations_edits_and_variations_with_DALL-E.ipynb)如何用 DALL-E生成和编辑图像
+- Azure OpenAI (alternative API from Microsoft Azure)基于微软 Azure 的 OpenAI
   - [How to use ChatGPT with Azure OpenAI](examples/azure/chat.ipynb)
-  - [How to get completions from Azure OpenAI](examples/azure/completions.ipynb)
-  - [How to get embeddings from Azure OpenAI](examples/azure/embeddings.ipynb)
-  - [How to fine-tune GPT-3 with Azure OpenAI](examples/azure/finetuning.ipynb)
+  - [How to get completions from Azure OpenAI](examples/azure/completions.ipynb)如何从 Azure OpenAI 获取补全功能
+  - [How to get embeddings from Azure OpenAI](examples/azure/embeddings.ipynb)如何从 Azure OpenAI 获取词向量功能
+  - [How to fine-tune GPT-3 with Azure OpenAI](examples/azure/finetuning.ipynb)如何用 Azure OpenAI 微调 GPT-3
 - Apps
-  - [File Q and A](apps/file-q-and-a/)
-  - [Web Crawl Q and A](apps/web-crawl-q-and-a)
+  - [File Q and A](apps/file-q-and-a/)文件问答
+  - [Web Crawl Q and A](apps/web-crawl-q-and-a)网络爬行问答
 
 ## Related resources
+## 相关资源
 
 Beyond the code examples here, you can learn about the [OpenAI API] from the following resources:
+除了这里的代码示例，你可以从以下资源中了解OpenAI API：
 
-- Try out the API in the [OpenAI Playground]
-- Read about the API in the [OpenAI Documentation]
-- Discuss the API in the [OpenAI Community Forum]
-- Look for help in the [OpenAI Help Center]
-- See example prompts in the [OpenAI Examples]
-- Play with a free research preview of [ChatGPT]
+- Try out the API in the [OpenAI Playground] 在OpenAI游乐场试实验API的使用效果
+- Read about the API in the [OpenAI Documentation] 在OpenAI文档了解 API的使用方法
+- Discuss the API in the [OpenAI Community社区 Forum论坛] 在社区论坛讨论API的使用经验
+- Look for help in the [OpenAI Help Center] 在OpenAI帮助中心寻求使用问题的帮助
+- See example prompts in the [OpenAI Examples] 在OpenAI案例库找到更多使用案例
+- Play with a free research preview of [ChatGPT] 使用免费的研究预览版 [ChatGPT] 进行游戏
 - Stay up to date with the [OpenAI Blog]
 
 ## Contributing
 
 If there are examples or guides you'd like to see, feel free to suggest them on the [issues page].
+如果有你喜欢的例子或指南，请随时在问题页上提出。
 
 [chatgpt]: https://chat.openai.com/
 [openai api]: https://openai.com/api/
